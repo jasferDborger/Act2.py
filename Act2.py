@@ -14,15 +14,6 @@ if ave>=75:
 else:
     print("Failed")
 
- print("PRINTING THE AVERAGE OF THE STUDENT")
-pre=int(input("Enter Prelim: "))
-mid=int(input("Enter Midterm: "))
-sem=int(input("Enter SemiFinal: "))
-fin=int(input("Enter Final: "))
-
-tot=(pre+mid+sem+fin)
-ave=tot/4
-
 if ave>=99 and ave<=100:
     print("A")
 elif ave>=90 and ave<=98:
