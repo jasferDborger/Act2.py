@@ -8,3 +8,8 @@ tot=(pre+mid+sem+fin)
 ave=tot/4
 
 print(ave, "The average ")
+
+if ave>=75:
+    print("Passed")
+else:
+    print("Failed")
